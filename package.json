@@ -1,0 +1,41 @@
+{
+    "name": "easycardtrain",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "dependencies": {
+        "dexie": "^4.4.7",
+        "dexie-react-hooks": "^4.4.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-router-dom": "^7.18.5"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "@testing-library/jest-dom": "^7.0.1",
+        "@testing-library/react": "^16.3.3",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
+        "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.6.2",
+        "fake-indexeddb": "^6.2.7",
+        "jsdom": "^26.1.0",
+        "postcss": "^8.5.32",
+        "tailwindcss": "^3.4.19",
+        "typescript": "^5.6.3",
+        "vite": "^6.0.0",
+        "vite-plugin-pwa": "^2.0.0",
+        "vitest": "^5.1.0"
+    }
+}
